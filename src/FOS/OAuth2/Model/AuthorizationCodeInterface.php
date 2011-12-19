@@ -8,7 +8,7 @@ interface AuthorizationCodeInterface
     function getRedirectUri();
 
     /**
-     * @return DateTime
+     * @return \DateTime
      */
     function getExpiresAt();
     function isUsed();

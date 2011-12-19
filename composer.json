@@ -12,6 +12,6 @@
         "php": ">=5.3.2"
     },
     "autoload": {
-        "psr-0": { "OAuth2": "lib/" }
+        "psr-0": { "FOS\\OAuth2": "src/" }
     }
 }

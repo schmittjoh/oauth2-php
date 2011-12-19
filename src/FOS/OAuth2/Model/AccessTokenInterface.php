@@ -7,7 +7,7 @@ interface AccessTokenInterface
     function getValue();
 
     /**
-     * @return DateTime
+     * @return \DateTime
      */
     function getExpiresAt();
 }
